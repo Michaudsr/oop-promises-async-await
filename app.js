@@ -138,3 +138,42 @@ fetch('https://api.github.com/users/michaudsr')
 
 
 
+let isMomHappy = false;
+
+// // Promise
+// let willIGetNewPhone = new Promise(
+//     function (resolve, reject) {
+//         if (isMomHappy) {
+//             var phone = {
+//                 brand: 'Samsung',
+//                 color: 'black'
+//             };
+//             resolve(phone); // fulfilled
+//         } else {
+//             let reason = new Error('mom is not happy');
+//             reject(reason); // reject
+//         }
+
+//     }
+// );
+
+// // console.log(willIGetNewPhone)
+// willIGetNewPhone.then(result => {
+//     console.log(result);
+// })
+
+let willIGetNewPhone = new Promise ( (resolve, reject )=>{
+    if (isMomHappy){
+        const phone = {
+            brand: 'iPhone',
+            color: 'red'
+        }
+        resolve(phone);
+    }
+    else {
+        reject('No phone');
+    }
+
+})
+
+
