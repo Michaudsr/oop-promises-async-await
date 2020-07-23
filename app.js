@@ -65,7 +65,7 @@ console.log(steph.name);
 // make a constructor function
 // make 3 new variables with that contructor function
 
-function TruckType( brand, model , true) {
+function TruckType(brand, model, bestModel) {
     this.brand = brand;
     this.model = model;
     this.bestModel = bestModel;
@@ -74,3 +74,5 @@ function TruckType( brand, model , true) {
 let chevy = new TruckType('Chevrolet', 'Silverado', true);
 console.log(chevy);
 console.log(chevy.brand);
+
+
