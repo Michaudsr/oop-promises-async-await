@@ -140,22 +140,22 @@
 
 // let isMomHappy = false;
 
-// // // Promise
-// // let willIGetNewPhone = new Promise(
-// //     function (resolve, reject) {
-// //         if (isMomHappy) {
-// //             var phone = {
-// //                 brand: 'Samsung',
-// //                 color: 'black'
-// //             };
-// //             resolve(phone); // fulfilled
-// //         } else {
-// //             let reason = new Error('mom is not happy');
-// //             reject(reason); // reject
-// //         }
+// // Promise
+// let willIGetNewPhone = new Promise(
+//     function (resolve, reject) {
+//         if (isMomHappy) {
+//             var phone = {
+//                 brand: 'Samsung',
+//                 color: 'black'
+//             };
+//             resolve(phone); // fulfilled
+//         } else {
+//             let reason = new Error('mom is not happy');
+//             reject(reason); // reject
+//         }
 
-// //     }
-// // );
+//     }
+// );
 
 // // // console.log(willIGetNewPhone)
 // // willIGetNewPhone.then(result => {
